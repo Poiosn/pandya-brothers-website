@@ -14,9 +14,9 @@
     =========================== */
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     :root {
-      --bg: #080c10;
-      --bg2: #0d1117;
-      --bg3: #111820;
+      --bg: #071510;
+      --bg2: #0c1e17;
+      --bg3: #122a1e;
       --amber: #f59e0b;
       --amber-light: #fcd34d;
       --cyan: #22d3ee;
@@ -64,7 +64,7 @@
       padding: 0 6%;
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
-      background: rgba(8,12,16,0.8);
+      background: rgba(7,21,16,0.85);
       border-bottom: 1px solid var(--border);
       transition: border-color var(--t);
     }
@@ -140,18 +140,18 @@
     .hero-grid {
       position: absolute; inset: 0; pointer-events: none;
       background-image:
-        linear-gradient(rgba(245,158,11,0.04) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(245,158,11,0.04) 1px, transparent 1px);
+        linear-gradient(rgba(245,158,11,0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(245,158,11,0.05) 1px, transparent 1px);
       background-size: 80px 80px;
     }
     .hero-glow-1 {
       position: absolute; width: 600px; height: 600px;
-      background: radial-gradient(circle, rgba(245,158,11,0.12) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(245,158,11,0.14) 0%, transparent 70%);
       top: -100px; left: -100px; pointer-events: none;
     }
     .hero-glow-2 {
       position: absolute; width: 500px; height: 500px;
-      background: radial-gradient(circle, rgba(34,211,238,0.07) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(52,211,153,0.10) 0%, transparent 70%);
       bottom: -100px; right: 5%; pointer-events: none;
     }
     .hero-inner {
@@ -390,7 +390,7 @@
       background: linear-gradient(135deg, rgba(245,158,11,0.06), transparent);
       opacity: 0; transition: opacity var(--t);
     }
-    .svc-card:hover { background: #151d26; transform: scale(1.01); z-index: 1; }
+    .svc-card:hover { background: #1a3828; transform: scale(1.01); z-index: 1; }
     .svc-card:hover::after { opacity: 1; }
     .svc-num {
       font-family: 'Rajdhani', sans-serif; font-size: 0.72rem; font-weight: 700;
@@ -430,7 +430,7 @@
       transition: border-color var(--t), background var(--t);
       cursor: default;
     }
-    .proj-row:hover { border-color: rgba(245,158,11,0.4); background: #0e1620; }
+    .proj-row:hover { border-color: rgba(245,158,11,0.4); background: #162e22; }
     .proj-idx {
       font-family: 'Rajdhani', sans-serif; font-size: 1.8rem; font-weight: 700;
       color: var(--amber); opacity: 0.4; line-height: 1; text-align: center;
@@ -571,7 +571,7 @@
       display: flex; gap: 16px; align-items: flex-start;
       transition: border-color var(--t), background var(--t);
     }
-    .qp:hover { border-left-color: var(--amber); background: #0e1620; }
+    .qp:hover { border-left-color: var(--amber); background: #162e22; }
     .qp-n {
       font-family: 'Rajdhani', sans-serif; font-size: 1.6rem; font-weight: 700;
       color: var(--amber); opacity: 0.4; flex-shrink: 0; line-height: 1;
@@ -589,7 +589,7 @@
     .quality-panel::before {
       content: ''; position: absolute; top: -60px; right: -60px;
       width: 250px; height: 250px;
-      background: radial-gradient(circle, rgba(245,158,11,0.1) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(245,158,11,0.12) 0%, transparent 70%);
     }
     .quality-panel .big-icon {
       font-size: 4rem; margin-bottom: 16px; display: block;
@@ -670,7 +670,7 @@
        FOOTER
     =========================== */
     footer {
-      background: #050709; border-top: 1px solid var(--border);
+      background: #040e09; border-top: 1px solid var(--border);
       padding: 56px 6% 30px;
     }
     .footer-wrap { max-width: 1200px; margin: 0 auto; }
